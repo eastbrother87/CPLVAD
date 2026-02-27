@@ -32,7 +32,7 @@
 
 ##  News
 - 2026-02-20: [[arXiv paper]](https://arxiv.org/abs/2602.17077) is available.
-- 2025-03-10: Code are available.
+- 2026-03-10: Code are available.
 
 ## Installation
 Clone the repository and create an anaconda environment using.
@@ -58,9 +58,8 @@ wget https://huggingface.co/facebook/VGGT_tracker_fixed/resolve/main/model_track
 
 ## 🔦 Inference & Evaluation
 
-For inference and evaluation of KITTI odometry dataset, just add ```--gt_pose_path``` as follows:
 ```
-CUDA_VISIBLE_DEVICES=<GPU> python run.py --image_dir <image_path> --gt_pose_path <gt_pose_path> --output_path <output_path>
+bash test.sh
 ```
 
 ##  Acknowledgements
