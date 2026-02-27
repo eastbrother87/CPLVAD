@@ -4,8 +4,8 @@
   <br />
 </h1>
   <p align="center">
-    <a href="https://Jho-Yonsei.github.io/">Dayeon Lee </a>&nbsp;·&nbsp;
-    <a href="https://hydragon.co.kr">Dongheyong Kim</a>&nbsp;·&nbsp;
+    Dayeon Lee* </a>&nbsp;·&nbsp;
+    Dongheyong Kim*</a>&nbsp;·&nbsp;
     Chaewon Park &nbsp;·&nbsp;
     Sungmin Woo  &nbsp;·&nbsp;
     <a href="http://mvp.yonsei.ac.kr/">Sangyoun Lee</a>&nbsp;&nbsp;
@@ -20,7 +20,7 @@
 </p>
 </p>
 
-## 🔭 Introduction
+## Introduction
 
 <p align="center">
   <img src="./assets/images/teaser.png" alt="Teaser">
@@ -30,11 +30,11 @@
   <strong>Abstract:</strong> Weakly supervised video anomaly detection aims to detect anomalies and identify abnormal categories with only videolevel labels. We propose CPL-VAD, a dual-branch framework with cross pseudo labeling. The binary anomaly detection branch focuses on snippet-level anomaly localization, while the category classification branch leverages vision–language alignment to recognize abnormal event categories. By exchanging pseudo labels, the two branches transfer complementary strengths, combining temporal precision with semantic discrimination. Experiments on XD-Violence and UCFCrime demonstrate that CPL-VAD achieves state-of-the-art performance in both anomaly detection and abnormal category classification
 </p>
 
-## 🆕 News
-- 2025-11-25: [[arXiv paper]](https://arxiv.org/abs/2602.17077) is available.
-- 2025-11-21: Code are available.
+##  News
+- 2026-02-20: [[arXiv paper]](https://arxiv.org/abs/2602.17077) is available.
+- 2025-03-10: Code are available.
 
-## 🔧 Installation
+## Installation
 Clone the repository and create an anaconda environment using.
 
 ```
@@ -49,12 +49,11 @@ pip install -r requirements.txt
 
 ```
 
-Then, download the CPLVAD checkpoint.
+Download CPLVAD checkpoint.
 
 ```
 mkdir -p ckpt
 wget https://huggingface.co/facebook/VGGT_tracker_fixed/resolve/main/model_tracker_fixed_e20.pt
-mv model_tracker_fixed_e20.pt ckpt
 ```
 
 ## 🔦 Inference & Evaluation
@@ -64,7 +63,7 @@ For inference and evaluation of KITTI odometry dataset, just add ```--gt_pose_pa
 CUDA_VISIBLE_DEVICES=<GPU> python run.py --image_dir <image_path> --gt_pose_path <gt_pose_path> --output_path <output_path>
 ```
 
-## 🌟 Acknowledgements
+##  Acknowledgements
 Our repository is built upon [VadCLIP](https://github.com/nwpu-zxr/VadCLIP), [ActionFormer](https://github.com/happyharrycn/actionformer_release). We thank to all the authors for their awesome works.
 
-## 📚 BibTex
+##  BibTex
