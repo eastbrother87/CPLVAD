@@ -23,7 +23,7 @@
 ## Introduction
 
 <p align="center">
-  <img src="arch.pdf" alt="arch">
+  <img src="arch.png" alt="arch">
 </p>
 
 <p align="justify">
