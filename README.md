@@ -23,7 +23,7 @@
 ## Introduction
 
 <p align="center">
-  <img src="./assets/images/teaser.png" alt="Teaser">
+  <img src="arch.pdf" alt="arch">
 </p>
 
 <p align="justify">
