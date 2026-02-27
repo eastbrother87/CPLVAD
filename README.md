@@ -53,7 +53,7 @@ Download CPLVAD checkpoint.
 
 ```
 mkdir -p ckpt
-wget https://huggingface.co/facebook/VGGT_tracker_fixed/resolve/main/model_tracker_fixed_e20.pt
+wget
 ```
 
 ## 🔦 Inference & Evaluation
