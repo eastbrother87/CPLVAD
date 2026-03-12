@@ -32,7 +32,7 @@
 
 ##  News
 - 2026-02-20: [[arXiv paper]](https://arxiv.org/abs/2602.17077) is available.
-- 2026-03-10: Code are available.
+- 2026-03-13: test code is available.
 
 ## Installation
 Clone the repository and create an anaconda environment using.
