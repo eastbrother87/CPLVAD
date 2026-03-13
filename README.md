@@ -57,7 +57,7 @@ mkdir -p ckpt
 wget
 ```
 
-## 🔦 Inference & Evaluation
+##  Inference & Evaluation
 
 ```
 bash test.sh
