@@ -11,7 +11,7 @@
     <a href="http://mvp.yonsei.ac.kr/">Sangyoun Lee</a>&nbsp;&nbsp;
   </p>
   <p align="center">
-    Yonsei University
+    Yonsei University, Samsung Electronics
   </p>
   <p align="center">
     <a href="https://arxiv.org/pdf/2602.17077"><img src="https://img.shields.io/badge/CPLVAD-arXiv-red.svg"></a>
