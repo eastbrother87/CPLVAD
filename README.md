@@ -33,7 +33,7 @@
 ##  News
 - 2026-02-20: [[arXiv paper]](https://arxiv.org/abs/2602.17077) is available.
 - 2026-03-13: test code is available.
-- Our training Codes will be coming soon after ICASSP 2026.
+- Our training code will be provided after the ICASSP 2026.
 
 ## Installation
 Clone the repository and create an anaconda environment using.
