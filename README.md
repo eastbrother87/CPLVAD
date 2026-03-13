@@ -33,6 +33,7 @@
 ##  News
 - 2026-02-20: [[arXiv paper]](https://arxiv.org/abs/2602.17077) is available.
 - 2026-03-13: test code is available.
+- Our training Codes will be coming soon after ICASSP 2026.
 
 ## Installation
 Clone the repository and create an anaconda environment using.
@@ -44,26 +45,35 @@ cd CPLVAD
 conda create -y -n CPLVAD python=3.10
 conda activate CPLVAD
 
-pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu121
+pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
-
-
 ```
 
-Download CPLVAD checkpoint.
+Download CPLVAD checkpoint at my [Hugging face](https://huggingface.co/buckets/Donghyeong/CPLVAD_weights).
 
 ```
 mkdir -p ckpt
-wget
 ```
+Download CLIP features for UCF-Crime and XD-Vioilence datasets. To set up the UCF-Crime and XD-Violence datasets, please follow the same procedure described in the [VadCLIP repository](https://github.com/nwpu-zxr/VadCLIP).
+
 
 ##  Inference & Evaluation
 
 ```
-bash test.sh
+python test_xd.py #For XD-Violence Dataset.
+python test_ucf.py #For UCF-Crime Dataset.
 ```
 
 ##  Acknowledgements
 Our repository is built upon [VadCLIP](https://github.com/nwpu-zxr/VadCLIP), [ActionFormer](https://github.com/happyharrycn/actionformer_release). We thank to all the authors for their awesome works.
 
 ##  BibTex
+The BibTeX entry will be updated with the ICASSP 2026 proceedings information soon.
+```
+@article{dayeon2026cross,
+  title={Cross Pseudo Labeling For Weakly Supervised Video Anomaly Detection},
+  author={Dayeon, Lee and Dongheyong, Kim and Chaewon, Park and Sungmin, Woo and Sangyoun, Lee},
+  journal={arXiv preprint arXiv:2602.17077},
+  year={2026}
+}
+```
