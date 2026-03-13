@@ -27,7 +27,7 @@
 </p>
 
 <p align="justify">
-  <strong>Abstract:</strong> Weakly supervised video anomaly detection aims to detect anomalies and identify abnormal categories with only videolevel labels. We propose CPL-VAD, a dual-branch framework with cross pseudo labeling. The binary anomaly detection branch focuses on snippet-level anomaly localization, while the category classification branch leverages vision–language alignment to recognize abnormal event categories. By exchanging pseudo labels, the two branches transfer complementary strengths, combining temporal precision with semantic discrimination. Experiments on XD-Violence and UCFCrime demonstrate that CPL-VAD achieves state-of-the-art performance in both anomaly detection and abnormal category classification
+  <strong>Abstract:</strong> Weakly supervised video anomaly detection aims to detect anomalies and identify abnormal categories with only videolevel labels. We propose CPL-VAD, a dual-branch framework with cross pseudo labeling. The binary anomaly detection branch focuses on snippet-level anomaly localization, while the category classification branch leverages vision–language alignment to recognize abnormal event categories. By exchanging pseudo labels, the two branches transfer complementary strengths, combining temporal precision with semantic discrimination. Experiments on XD-Violence and UCF-Crime demonstrate that CPL-VAD achieves state-of-the-art performance in both anomaly detection and abnormal category classification
 </p>
 
 ##  News
