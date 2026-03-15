@@ -5,7 +5,7 @@
 </h1>
   <p align="center">
     Dayeon Lee* </a>&nbsp;·&nbsp;
-    Dongheyong Kim*</a>&nbsp;·&nbsp;
+    Donghyeong Kim*</a>&nbsp;·&nbsp;
     Chaewon Park &nbsp;·&nbsp;
     Sungmin Woo  &nbsp;·&nbsp;
     <a href="http://mvp.yonsei.ac.kr/">Sangyoun Lee</a>&nbsp;&nbsp;
