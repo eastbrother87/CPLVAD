@@ -13,7 +13,7 @@ from utils.tools import get_batch_mask, get_prompt_text
 from utils.xd_detectionMAP import getDetectionMAP as dmAP
 import configs.xd as xd_option_pseudo
 import matplotlib.pyplot as plt
-from scipy.ndimage import gaussian_filter1d
+from scipy.ndimage import gaussian_filter, gaussian_filter1d, median_filter
 
 def postprocess(scores):
     s = np.asarray(scores, dtype=np.float64)

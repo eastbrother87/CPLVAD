@@ -90,6 +90,8 @@ def test(model,full_path, testdataloader, maxlen, prompt_text, gt, gtsegments, g
     AP2 = average_precision_score(gt, np.repeat(ap2, 16))
     print("AUC1: ", ROC1, " AP1: ", AP1)
     print("AUC2: ", ROC2, " AP2:", AP2)
+
+    dmap, iou = dmAP(element_logits2_stack, gtsegments, gtlabels, excludeNormal=False)
     averageMAP = 0
     for i in range(5):
         print('mAP@{0:.1f} ={1:.2f}%'.format(iou[i], dmap[i]))
